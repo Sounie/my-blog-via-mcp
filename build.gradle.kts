@@ -9,6 +9,11 @@ repositories {
     mavenCentral()
 }
 
+dependencyLocking {
+    lockAllConfigurations()
+}
+
+
 dependencies {
     testImplementation(kotlin("test"))
 
