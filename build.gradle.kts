@@ -17,6 +17,7 @@ dependencyLocking {
 dependencies {
     testImplementation(kotlin("test"))
 
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.1")
     implementation(platform("org.http4k:http4k-bom:6.43.0.0"))
 
     implementation("org.http4k:http4k-core")
